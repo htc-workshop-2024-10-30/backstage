@@ -2,7 +2,6 @@ name: Deploy Backstage
 
 on:
   pull_request:
-    branches: 'bump-dependencies'
   push:
     branches: 'main'
 
