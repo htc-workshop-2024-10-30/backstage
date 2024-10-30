@@ -1,6 +1,8 @@
 name: Deploy Backstage
 
 on:
+  pull_request:
+    branches: 'bump-dependencies'
   push:
     branches: 'main'
 
@@ -11,7 +13,7 @@ env:
   HUMCTL_VERSION: '*'
   HUMANITEC_APP_ID: backstage
   SCORE_FILE: score.yaml
-  DEPLOYMENT_ENV: development
+  DEPLOYMENT_ENV: test
   # CLOUD_PROVIDER: aws
   AWS_REGION: ${{ vars.AWS_REGION }}
   AWS_ROLE_ARN: ${{ vars.AWS_ROLE_ARN }}
