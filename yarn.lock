@@ -5233,7 +5233,7 @@
   resolved "https://registry.yarnpkg.com/@humanitec/autogen/-/autogen-0.1.0.tgz#d9f2db5f086bfbb508ef25923e4196905e93fa34"
   integrity sha512-uXfOPwU6v7maXXLA61H8bg7I04V7fvzoEN5WCFAZooHo9+3gCMvRUSkkVl4Up584pjsAFJ1U92mMQ+9eZwMMQQ==
 
-"@humanitec/backstage-plugin-backend@^0.8.2":
+"@humanitec/backstage-plugin-backend@^0.8.4":
   version "0.8.4"
   resolved "https://registry.yarnpkg.com/@humanitec/backstage-plugin-backend/-/backstage-plugin-backend-0.8.4.tgz#c067208ee1cfb9a4dec07c4635e9210942730dc2"
   integrity sha512-YpKWrN5wYtY71feLVUhPzdPITgjdcBnglDYOhSuJKvJrskuzPk/7HRKLKO43L9Uexcrl2FJW9a1cvtYbT0t/MA==
@@ -5259,7 +5259,7 @@
     cross-fetch "^4.0.0"
     exponential-backoff "^3.1.0"
 
-"@humanitec/backstage-plugin-scaffolder-backend-module@^0.5.2":
+"@humanitec/backstage-plugin-scaffolder-backend-module@^0.5.4":
   version "0.5.4"
   resolved "https://registry.yarnpkg.com/@humanitec/backstage-plugin-scaffolder-backend-module/-/backstage-plugin-scaffolder-backend-module-0.5.4.tgz#27816596ed851daabda176ff67e2f7c01cea7ad9"
   integrity sha512-Ys9/kD6RTejFHvfismj2bzgTJ0PGyDWeXKJKtJua1WbECC6bWNkja5kXwN5cy2r4l7dAEmciOBYOjPhGKitwhw==
