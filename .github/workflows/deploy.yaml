@@ -12,7 +12,7 @@ env:
   HUMCTL_VERSION: '*'
   HUMANITEC_APP_ID: backstage
   SCORE_FILE: score.yaml
-  DEPLOYMENT_ENV: test
+  DEPLOYMENT_ENV: development
   # CLOUD_PROVIDER: aws
   AWS_REGION: ${{ vars.AWS_REGION }}
   AWS_ROLE_ARN: ${{ vars.AWS_ROLE_ARN }}
